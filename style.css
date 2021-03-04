@@ -1,0 +1,54 @@
+body{
+    background: black;
+    margin: 0%;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    background-color: white;
+}
+
+.logo{
+    flex-flow: row;
+    display: flex;
+}
+
+.logo-child{
+    align-self: center;
+}
+
+.post-icons-left{
+  height: 0px;
+}
+
+.post-icons-right{
+  text-align: right !important;
+
+}
+
+.icons{
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.head {
+    border: 1px solid black;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px;
+}
+
+.container > div {
+  margin: 0;
+  text-align: left;
+  display: flex;
+}
+
+.message{
+    flex-flow: column;
+    padding: 5px;
+}
